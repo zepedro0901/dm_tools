@@ -1,5 +1,5 @@
 import React from 'react';
-import './Sidebar.styles.css'; // Optional: Add styles for the sidebar
+import "../styles/Sidebar.styles.css"
 
 const Sidebar = () => {
   return ( 
@@ -15,4 +15,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Sidebar
