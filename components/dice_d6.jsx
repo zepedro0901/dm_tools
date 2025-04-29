@@ -2,14 +2,15 @@ import React from 'react';
 import "../styles/dice_d6.styles.css"
 
 const D6 = () => {
-  return ( 
+  return (
+
     <div className="d6">
-     <div className='side d6_1'>1</div>
-     <div className='side d6_2'>2</div>
-     <div className='side d6_3'>3</div>
-     <div className='side d6_4'>4</div>
-     <div className='side d6_5'>5</div>
-     <div className='side d6_6'>6</div>
+      <div className='side d6_1 chosen'></div>
+      <div className='side d6_2'></div>
+      <div className='side d6_3'></div>
+      <div className='side d6_4'></div>
+      <div className='side d6_5'></div>
+      <div className='side d6_6'></div>
     </div>
   );
 };
