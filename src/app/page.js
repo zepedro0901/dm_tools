@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <div> 
       <div className="container" style={{display:"flex",justifyContent:"space-between"}}> 
-        <Sidebar/>
         <InitTable/>
-        <Sidebar/>
       </div>
     </div>
    )
