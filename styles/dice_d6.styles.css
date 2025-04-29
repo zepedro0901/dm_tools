@@ -1,0 +1,40 @@
+.d6{
+    font-size: 80px;
+    width: 160px;
+    height: 160px;
+    margin: 80px auto;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.side{
+    position: absolute ;
+    width: 2em;
+    height: 2em;
+
+    background: rgba(255, 255, 255, 0.416);
+    border: 1px solid black;
+
+    color: black;
+    text-align: center;
+    line-height: 2em;
+}
+
+.d6_1{
+    transform: rotateX(0deg) translateZ(80px);
+}
+.d6_2{
+    transform: rotateX(90deg) translateZ(80px);
+}
+.d6_3{
+    transform: rotateY(90deg) translateZ(80px);
+}
+.d6_4{
+    transform: rotateY(-90deg) translateZ(80px);
+}
+.d6_5{
+    transform: rotateX(-90deg) translateZ(80px);
+}
+.d6_6{
+    transform: rotateY(-180deg) translateZ(80px);
+}
